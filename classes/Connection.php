@@ -4,7 +4,7 @@ class Connection {
 
     private static function conectar(){
 
-        return new mysqli('127.0.0.1', 'root', 'thejkl123', 'unipet');
+        return new mysqli('127.0.0.1', 'root', '', 'unipet');
     }
 
     public static function query($sql){ 
